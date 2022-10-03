@@ -59,7 +59,6 @@ h2 {
 h1, h2, h3 {
     font-family: 'Lato', sans-serif;
     text-align: center;
-    margin: 0;
     color: var(--color-title);
     text-align: center;
 }
@@ -93,6 +92,14 @@ section:last-of-type {
 .btns {
     margin: auto;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.contenedor-principal {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 3rem;
