@@ -3,8 +3,10 @@
 :root {
     --color-bg: #1b1b30;
     --color-bg-light: #0a0a21;
+    --color-bg-light-hover: #17174eb9;
     --color-txt: #d0d0d5;
     --color-title: #f5f6f7;
+    --border-radius: .5rem;
 }
 
 html {
@@ -86,4 +88,12 @@ section:last-of-type {
 .contenedor-margen {
     margin: auto;
     max-width: 1200px;
+}
+
+.btns {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
 }

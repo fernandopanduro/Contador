@@ -1,0 +1,12 @@
+button {
+    background-color: var(--color-bg-light);
+    cursor: pointer;
+    padding: 1rem 5rem;
+    border: none;
+    border-radius: var(--border-radius);
+    transition: .3s background;
+}
+
+button:hover {
+    background: var(--color-bg-light-hover);
+}
